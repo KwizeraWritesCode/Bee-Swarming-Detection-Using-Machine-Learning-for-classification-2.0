@@ -48,23 +48,12 @@ This work is particularly useful for:
 ```
 bee-audio-classification/
 │
-├── data/
-│   ├── raw/                # Raw audio files (.wav)
-│   ├── processed/          # Extracted feature datasets
-│
 ├── src/
 │   ├── feature_extraction.py
 │   ├── data_preprocessing.py
 │   ├── train_models.py
 │   ├── evaluate.py
 │   ├── autoencoder.py
-│
-├── notebooks/
-│   └── experiments.ipynb
-│
-├── results/
-│   ├── confusion_matrices/
-│   ├── reports/
 │
 ├── main.py                 # Main pipeline script
 ├── requirements.txt
